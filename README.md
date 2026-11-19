@@ -1,6 +1,6 @@
 <div align="center">
 
-# PongAI
+<img src="public/assets/brand/logo.webp" alt="PongAI" width="300" />
 
 ### Нейронна мережа, що виграє в Atari Pong
 
