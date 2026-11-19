@@ -8,11 +8,11 @@
 Гра йде до 21 очка — перемога однозначна: хто першим набрав 21.
 
 <p>
-  <img height="28" alt="Python 3.11+" src="https://img.shields.io/badge/Python-3.11%2B-3776AB">
-  <img height="28" alt="PyTorch 2.5.1" src="https://img.shields.io/badge/PyTorch-2.5.1-EE4C2C">
-  <img height="28" alt="PPO" src="https://img.shields.io/badge/Навчання-PPO-079C8E">
-  <img height="28" alt="CPU only" src="https://img.shields.io/badge/CPU-only-4C8BF5">
-  <img height="28" alt="Atari Pong" src="https://img.shields.io/badge/Atari-Pong-555555">
+  <img src="docs/media/ui/badge-0.svg" height="28" alt="Python 3.11+" />
+  <img src="docs/media/ui/badge-1.svg" height="28" alt="PyTorch 2.5.1" />
+  <img src="docs/media/ui/badge-2.svg" height="28" alt="Навчання PPO" />
+  <img src="docs/media/ui/badge-3.svg" height="28" alt="CPU only" />
+  <img src="docs/media/ui/badge-4.svg" height="28" alt="Atari Pong" />
 </p>
 
 <img width="100%" alt="Гра навченого агента (праворуч, зелена ракетка)" src="results/pong_game.gif">
@@ -64,13 +64,13 @@ Pong — класична перевірка для навчання з підк
 
 ## Можливості
 
-- **Стан із RAM, а не з пікселів** — мережа отримує 10 підготовлених чисел, зчитаних прямо з пам'яті Atari 2600,
+- <img src="docs/media/ui/ram.svg" width="22" height="22" align="absmiddle" alt="" /> **Стан із RAM, а не з пікселів** — мережа отримує 10 підготовлених чисел, зчитаних прямо з пам'яті Atari 2600,
   тому навчається швидко й без згорток.
-- **PPO + GAE на чистому PyTorch** — Actor-Critic з окремими головами, без Ray і без GPU.
-- **16 паралельних ігор** — векторне середовище збирає досвід одразу з 16 партій на ітерацію.
-- **Бонус за відбиття** — м'який додатковий сигнал прискорює старт навчання, але на тесті не використовується.
-- **Відтворюваний тест** — 100 нових ігор на фіксованих seed зі «липкими» діями ALE.
-- **Запис гри в GIF** — будь-яку партію навченого агента можна переглянути або зберегти однією командою.
+- <img src="docs/media/ui/torch.svg" width="22" height="22" align="absmiddle" alt="" /> **PPO + GAE на чистому PyTorch** — Actor-Critic з окремими головами, без Ray і без GPU.
+- <img src="docs/media/ui/grid.svg" width="22" height="22" align="absmiddle" alt="" /> **16 паралельних ігор** — векторне середовище збирає досвід одразу з 16 партій на ітерацію.
+- <img src="docs/media/ui/star.svg" width="22" height="22" align="absmiddle" alt="" /> **Бонус за відбиття** — м'який додатковий сигнал прискорює старт навчання, але на тесті не використовується.
+- <img src="docs/media/ui/refresh.svg" width="22" height="22" align="absmiddle" alt="" /> **Відтворюваний тест** — 100 нових ігор на фіксованих seed зі «липкими» діями ALE.
+- <img src="docs/media/ui/film.svg" width="22" height="22" align="absmiddle" alt="" /> **Запис гри в GIF** — будь-яку партію навченого агента можна переглянути або зберегти однією командою.
 
 ---
 

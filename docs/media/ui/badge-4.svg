@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="127" height="28" viewBox="0 0 127 28" role="img" aria-label="Atari Pong">
+<defs><linearGradient id="g" x1="0" x2="1"><stop offset="0" stop-color="#c9a227"/><stop offset="1" stop-color="#f0d36b"/></linearGradient></defs>
+<rect x=".5" y=".5" width="126" height="27" rx="13.5" fill="#17130a" stroke="#c9a227" stroke-opacity=".45"/>
+<g transform="translate(18,14)" fill="none" stroke="#c9a227" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"><path d="M-7 -4v8M7 -4v8"/><circle cx="0" cy="0" r="1.7" fill="#f0d36b" stroke="none"/></g>
+<text x="34" y="18" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" font-weight="600" fill="#f3e9df">Atari</text>
+<path d="M78.0 1h37.0a12 12 0 0 1 12 12v2a12 12 0 0 1-12 12h-37.0z" fill="url(#g)"/>
+<text x="89.0" y="18" font-family="ui-monospace,Menlo,Consolas,monospace" font-size="11" font-weight="800" fill="#17130a">Pong</text>
+</svg>
