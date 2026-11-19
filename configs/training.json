@@ -1,0 +1,25 @@
+{
+  "game": "Pong (ALE, frameskip 4, sticky actions 0.25)",
+  "seed": 42,
+  "num_envs": 16,
+  "horizon": 128,
+  "total_steps": 3000000,
+  "minibatch_size": 512,
+  "epochs": 4,
+  "save_every": 20,
+  "hidden": [256, 128],
+  "learning_rate": 0.0003,
+  "gamma": 0.99,
+  "gae_lambda": 0.95,
+  "entropy_coefficient": 0.01,
+  "ppo_clip": 0.2,
+  "value_clip": 10.0,
+  "value_coef": 0.5,
+  "gradient_clip": 0.5,
+  "sticky_actions": 0.25,
+  "rewards": {
+    "point_won": 1.0,
+    "point_lost": -1.0,
+    "hit_bonus": 0.1
+  }
+}
